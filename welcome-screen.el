@@ -1,8 +1,0 @@
-(defun create-personal-welcome-buffer()
-  (interactive)
-  (set-buffer (get-buffer-create "welcome"))
-  (insert "Welcome back, Jared.\n")
-  (insert "It's another beautiful day for Emacs.\n")
-  (insert-image (create-image "output-onlinepngtools.png" nil))
-  (goto-char (point-min))
-  (switch-to-buffer "welcome"))
