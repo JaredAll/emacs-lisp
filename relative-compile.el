@@ -22,6 +22,7 @@
   (setq compile-command test-command)
   (execute-kbd-macro (kbd "M-x compile")))
 
+<<<<<<< HEAD
 (defvar pdf-location)
 (defun open-fresh-pdf()
   (interactive)
@@ -41,6 +42,4 @@
 (put 'relative-compile-command 'safe-local-variable
      (lambda (x) t))
 (put 'test-command 'safe-local-variable
-     (lambda (x) t))
-(put 'pdf-location 'safe-local-variable
      (lambda (x) t))
